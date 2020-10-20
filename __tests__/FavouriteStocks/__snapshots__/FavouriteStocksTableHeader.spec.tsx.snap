@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavouriteStocksTableHeader tests matches snapshot 1`] = `
+<thead
+  className="thead-dark"
+  data-testid="stocks-table__header"
+>
+  <tr
+    className="d-flex"
+  >
+    <th
+      className="col-6"
+      scope="col"
+    >
+      Stock Name
+    </th>
+    <th
+      className="col-2"
+      scope="col"
+    >
+      Timestamp
+    </th>
+    <th
+      className="col-2"
+      scope="col"
+    >
+      Price
+    </th>
+    <th
+      className="col-2"
+      scope="col"
+    >
+      Action
+    </th>
+  </tr>
+</thead>
+`;

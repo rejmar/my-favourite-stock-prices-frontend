@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavouriteStocks tests matches snapshot 1`] = `
+<div
+  className="d-flex flex-column w-100 border border-light rounded bg-light p-2"
+  data-testid="favourite-stocks"
+>
+  <h2
+    data-testid="favourite-stocks__label"
+  >
+    Bookmarks
+  </h2>
+  <div
+    className="d-flex w-100"
+    data-testid="favourite-stocks-table"
+  >
+    <table
+      className="table table-striped table-bordered table-hover"
+    >
+      <thead
+        className="thead-dark"
+        data-testid="stocks-table__header"
+      >
+        <tr
+          className="d-flex"
+        >
+          <th
+            className="col-6"
+            scope="col"
+          >
+            Stock Name
+          </th>
+          <th
+            className="col-2"
+            scope="col"
+          >
+            Timestamp
+          </th>
+          <th
+            className="col-2"
+            scope="col"
+          >
+            Price
+          </th>
+          <th
+            className="col-2"
+            scope="col"
+          >
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        data-testid="favourite-stocks-table__body"
+      >
+        <tr
+          className="d-flex"
+          data-testid="favourite-stock-table__row__APPLE"
+        >
+          <td
+            className="col-6"
+            data-testid="favourite-stock-table__row__APPLE__name"
+          >
+            Apple
+          </td>
+          <td
+            className="col-2"
+            data-testid="favourite-stock-table__row__APPLE__timestamp"
+          >
+            01/01/2000 01:01
+          </td>
+          <td
+            className="col-2"
+            data-testid="favourite-stock-table__row__APPLE__price"
+          >
+            100.00
+          </td>
+          <td
+            className="d-flex col-2 justify-content-center"
+            data-testid="favourite-stock-table__row__APPLE__action"
+          >
+            <button
+              className="p-1 border-secondary bg-secondary btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Remove Bookmark!
+            </button>
+          </td>
+        </tr>
+        <tr
+          className="d-flex"
+          data-testid="favourite-stock-table__row__MICROSOFT"
+        >
+          <td
+            className="col-6"
+            data-testid="favourite-stock-table__row__MICROSOFT__name"
+          >
+            Microsoft
+          </td>
+          <td
+            className="col-2"
+            data-testid="favourite-stock-table__row__MICROSOFT__timestamp"
+          >
+            01/01/2000 01:01
+          </td>
+          <td
+            className="col-2"
+            data-testid="favourite-stock-table__row__MICROSOFT__price"
+          >
+            200.00
+          </td>
+          <td
+            className="d-flex col-2 justify-content-center"
+            data-testid="favourite-stock-table__row__MICROSOFT__action"
+          >
+            <button
+              className="p-1 border-secondary bg-secondary btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Remove Bookmark!
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
